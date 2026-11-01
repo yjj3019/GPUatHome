@@ -1,6 +1,6 @@
-# PC2 worker 기동 예시
+# PC1 또는 PC2 worker 기동
 param(
-    [string]$BindIp = "192.168.1.20",
+    [string]$BindIp = "192.168.1.10",
     [int]$Port = 50052
 )
 
